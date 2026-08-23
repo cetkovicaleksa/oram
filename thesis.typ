@@ -1,4 +1,4 @@
-#import "@local/ftn77-thesis:0.1.0": appendices, bibliography, thesis
+#import "template/lib.typ": appendices, bibliography, thesis
 
 
 #import sys.inputs.at("style", default: "thesis.style.typ") as style

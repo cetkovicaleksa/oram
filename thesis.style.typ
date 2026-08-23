@@ -1,3 +1,3 @@
-#import "@local/ftn77-thesis:0.1.0": style as default
+#import "template/lib.typ": style as default
 
 #import default: *
