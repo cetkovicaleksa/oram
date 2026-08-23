@@ -1,0 +1,29 @@
+{
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist",
+    "editor.formatOnSave": true,
+  },
+  "tinymist.formatterMode": "typstyle",
+  "tinymist.formatterIndentSize": 2,
+  "tinymist.formatterPrintWidth": 100,
+  "tinymist.formatterProseWrap": true,
+
+  "tinymist.projectResolution": "lockDatabase",
+  "tinymist.rootPath": "${workspaceFolder}",
+
+  "tinymist.systemFonts": true,
+  "tinymist.fontPaths": ["${workspaceFolder}/assets/fonts"],
+
+  "tinymist.onPaste": "$root/assets/figures",
+  "tinymist.outputPath": "$dir/$name",
+  "tinymist.typstExtraArgs": [],
+
+  "cSpell.checkOnlyEnabledFileTypes": true,
+  "cSpell.enabledFileTypes": {
+    "*": false,
+    "plaintext": true,
+    "typst": true,
+    "markdown": true,
+    "biblatex": true,
+  },
+}

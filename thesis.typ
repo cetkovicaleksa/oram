@@ -1,0 +1,30 @@
+#import "@local/ftn77-thesis:0.1.0": appendices, bibliography, thesis
+
+
+#import sys.inputs.at("style", default: "thesis.style.typ") as style
+#let meta = yaml(sys.inputs.at("meta", default: "thesis.yml"))
+
+
+#show: thesis.with(
+  ..meta,
+  style: style,
+  abstract: include "content/abstract.typ",
+  assignment-text: include "content/assignment.typ",
+  bibliography: bibliography("thesis.bib"),
+  bio: include "content/biography.typ",
+
+  en: (
+    ..meta.en,
+    abstract: include "content/abstract.en.typ",
+  ),
+)
+
+= Увод
+
+#lorem(100)
+
+#show: appendices
+
+= Додатак
+
+#lorem(100)

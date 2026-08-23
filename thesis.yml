@@ -1,0 +1,76 @@
+title: Систем за приватну анализу графова над екстерно складиштеним шифрованим подацима уз заштиту образаца приступа примјеном ORAM механизма
+keywords: []
+degree: Основне академске студије
+program: Софтверско инжењерство и информационе технологије
+field: Електротехничко и рачунарско инжењерство
+discipline: Примењене рачунарске науке и информатика
+
+author:
+  name: Алекса Ћетковић
+  id: sv77/2022
+mentor:
+  name: Милан Стојков
+
+accession-number: 0
+identification-number: 0
+document-type: Монографска документација
+type-of-record: Текстуални штампани материјал
+contents-code: Дипломски - бечелор рад
+text-lang: српски/ћирилица
+abstract-lang: српски/енглески
+publication:
+  publisher: Ауторски репринт
+  country: Република Србија
+  locality: Војводина
+  place: Нови Сад, трг Доситеја Обрадовића 6
+  year: 2026
+subject-keywords: 
+uc: 
+holding-data: У библиотеци Факултета техничких наука, Нови Сад
+note: 
+accepted-date: 
+defense: 
+  date: …
+  president: … 
+  member1: …
+  member2: …
+  mentor: Др Милан Стојков, доцент
+
+en:
+  title: System for private graph analysis over externally stored encrypted data with access pattern protection using ORAM mechanism
+  keywords: []
+  degree: Bachelor of Science
+  program: Software Engineering and Information Technology
+  field: Electrical and Computer Engineering
+  discipline: Applied Computer Science and Informatics
+
+  author:
+    name: Aleksa Ćetković
+    id: sv77/2022
+  mentor:
+    name: Milan Stojkov
+  
+  accession-number: 0
+  identification-number: 0
+  document-type: Monographic documentation
+  type-of-record: Textual printed material
+  contents-code: Bachelor thesis
+  text-lang: Serbian/Cyrillic
+  abstract-lang: Serbian/English
+  publication:
+    publisher: Author's reprint
+    country: Republic of Serbia
+    locality: Vojvodina
+    place: Novi Sad, Dositeja Obradovića 6
+    year: 2026
+  subject-keywords:
+  uc:
+  holding-data: The Library of Faculty of Technical Sciences, Novi Sad
+  note:
+  accepted-date:
+  defense:
+    date: …
+    president: …
+    member1: …
+    member2: …
+    mentor: Milan Stojkov, Phd, assist. Professor

@@ -1,0 +1,12 @@
+{
+  // https://cspell.org/docs/Configuration
+  "version": "0.2",
+  "language": "en-GB,en-US,sr",
+  "ignorePaths": ["*", "!content/"],
+  "words": [
+    "Именко",
+    "Презимић",
+    "pagebreak",
+    "oram",
+  ]
+}

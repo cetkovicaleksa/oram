@@ -1,6 +1,6 @@
 *          text=auto eol=lf
 
-*.typ     text linguist-language=Typst
+*.typ      text linguist-language=Typst
 *.pdf      diff=astextplain
 
 *.bib      text diff=bibtex
