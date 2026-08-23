@@ -1,0 +1,3 @@
+*.pdf
+**/tinymist.lock
+dist/

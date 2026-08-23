@@ -1,0 +1,22 @@
+*          text=auto eol=lf
+
+*.typ     text linguist-language=Typst
+*.pdf      diff=astextplain
+
+*.bib      text diff=bibtex
+
+*.csv      text eol=crlf
+
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.svg      binary
+
+.vscode/*.json linguist-language=JSON-with-Comments
+.devcontainer.json linguist-language=JSON-with-Comments
+devcontainer.json linguist-language=JSON-with-Comments
+
+.gitattributes export-ignore
+.gitignore     export-ignore
+.gitkeep       export-ignore
