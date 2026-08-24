@@ -12,6 +12,9 @@
   assignment-text: include "content/assignment.typ",
   bibliography: bibliography("thesis.bib"),
   bio: include "content/biography.typ",
+  glossary: yaml("thesis.gls.yml"),
+  glossary-links: true,
+  glossary-all: true,
 
   en: (
     ..meta.en,
