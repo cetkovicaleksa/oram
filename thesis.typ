@@ -9,7 +9,6 @@
   ..meta,
   style: style,
   abstract: include "content/abstract.typ",
-  assignment-text: include "content/assignment.typ",
   bibliography: bibliography("thesis.bib"),
   bio: include "content/biography.typ",
   glossary: yaml("thesis.gls.yml"),
