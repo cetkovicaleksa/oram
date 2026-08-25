@@ -6,6 +6,7 @@
 
 
 #show: thesis.with(
+  physical: auto,
   ..meta,
   style: style,
   abstract: include "content/abstract.typ",
@@ -16,6 +17,7 @@
   glossary-all: true,
 
   en: (
+    physical: auto,
     ..meta.en,
     abstract: include "content/abstract.en.typ",
   ),

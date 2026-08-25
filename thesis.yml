@@ -29,6 +29,7 @@ publication:
   locality: Војводина
   place: Нови Сад, трг Доситеја Обрадовића 6
   year: 2026
+# physical: # auto counted
 subject-keywords: 
 uc: 
 holding-data: У библиотеци Факултета техничких наука, Нови Сад
@@ -68,6 +69,7 @@ en:
     locality: Vojvodina
     place: Novi Sad, Dositeja Obradovića 6
     year: 2026
+  # physical: # auto counted
   subject-keywords:
   uc:
   holding-data: The Library of Faculty of Technical Sciences, Novi Sad
