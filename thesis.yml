@@ -14,8 +14,7 @@ author:
   name: Алекса Ћетковић
   id: sv77/2022
 mentor:
-  name: Милан Стојков
-
+  name: др Милан Стојков, доцент
 accession-number: 0
 identification-number: 0
 document-type: Монографска документација
@@ -40,7 +39,7 @@ defense:
   president: … 
   member1: …
   member2: …
-  mentor: Др Милан Стојков, доцент
+  mentor: др Милан Стојков, доцент
 
 en:
   title: System for private graph analysis over externally stored encrypted data with access pattern protection using ORAM mechanism
@@ -54,7 +53,7 @@ en:
     name: Aleksa Ćetković
     id: sv77/2022
   mentor:
-    name: Milan Stojkov
+    name: Milan Stojkov, Phd, assist. Professor
   
   accession-number: 0
   identification-number: 0

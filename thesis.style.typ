@@ -4,8 +4,8 @@
 
 #let cover(body) = {
   show: default.cover.with(
-    fill: navy,
-    text-fill: gold,
+    // fill: navy,
+    // text-fill: gold,
     body-font: "Minion 3",
     sans-font: "Minion 3 Display",
     title-size: 16.98pt,
