@@ -21,10 +21,9 @@
 
   show: default.cover.with(
     body-size: body-size,
-    body-font: "Arial",
     sans-font: "Times New Roman",
     title-size: 16pt,
-    margin: if "spiral" in sys.inputs {
+    margin: if "spiral" in sys.inputs and "unspiral-cover" not in sys.inputs {
       (inside: 2cm, outside: 1cm, y: 1.5cm)
     } else {
       1.5cm
