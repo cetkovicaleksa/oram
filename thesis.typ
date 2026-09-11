@@ -6,20 +6,31 @@
 
 
 #show: thesis.with(
-  physical: auto,
+  duplex: "duplex" in sys.inputs,
+  copy-for: sys.inputs.at("copy-for", default: none),
+  cover-title: [
+    Систем за приватну анализу графова над екстерно складиштеним \
+    шифрованим подацима уз заштиту образаца приступа \
+    примјеном ORAM механизма
+  ],
+  margin: if "spiral" in sys.inputs {
+    (inside: 2.5cm, outside: 1.5cm, y: 2cm)
+  } else {
+    2cm // (x: 2cm, y: 2.5cm)
+  },
   ..meta,
   style: style,
-  abstract: include "content/abstract.typ",
+  abstract: [= Извод] + include "content/abstract.typ",
   bibliography: bibliography("thesis.bib"),
   bio: include "content/biography.typ",
   glossary: yaml("thesis.gls.yml"),
   glossary-links: true,
   glossary-all: true,
+  url-footnotes: "no-url-footnotes" not in sys.inputs,
 
   en: (
-    physical: auto,
     ..meta.en,
-    abstract: include "content/abstract.en.typ",
+    abstract: [= Abstract] + include "content/abstract.en.typ",
   ),
 )
 
