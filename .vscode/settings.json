@@ -15,7 +15,7 @@
   "tinymist.fontPaths": ["${workspaceFolder}/assets/fonts"],
 
   "tinymist.onPaste": "$root/assets/figures",
-  "tinymist.outputPath": "$dir/$name",
+  "tinymist.outputPath": "dist/$dir/$name",
   "tinymist.typstExtraArgs": [],
 
   "cSpell.checkOnlyEnabledFileTypes": true,
