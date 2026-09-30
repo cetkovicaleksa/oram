@@ -17,12 +17,9 @@
 }
 
 #let cover(body) = {
-  let body-size = 11pt
-
   show: default.cover.with(
-    body-size: body-size,
-    sans-font: "Times New Roman",
-    title-size: 16pt,
+    body-size: 11pt,
+    title-size: 14.494289pt,
     margin: if "spiral" in sys.inputs and "unspiral-cover" not in sys.inputs {
       (inside: 2cm, outside: 1cm, y: 1.5cm)
     } else {
@@ -36,18 +33,6 @@
   show "Алекса Ћетковић": set text(size: 12pt)
 
   show "ORAM": smallcaps[oram]
-
-  body
-}
-
-#let base(body, ..args) = {
-  show: default.base.with(..args)
-
-  show bibliography: set par(justify: false, spacing: 1em)
-  show bibliography: it => {
-    show regex("\[\d+\]"): set text(number-width: "tabular", number-type: "lining") // only way i could think of at the moment
-    it
-  }
 
   body
 }

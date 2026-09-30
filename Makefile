@@ -1,9 +1,24 @@
-.PHONY: watch, thesis, cover, install, docs, docs-serve, uv, uninstall-uv, clean, clean-all
+.DEFAULT_GOAL := help
+.PHONY: help watch thesis cover install docs docs-serve uv uninstall-uv clean clean-all
 
 IN?=
 OUT?=
 
 PDF_STANDARD?=a-2a#,ua-1
+
+help:
+	@printf "Available targets:\n"
+	@printf "  help         Show this help message\n"
+	@printf "  watch        Watch and rebuild the thesis\n"
+	@printf "  thesis       Compile the thesis\n"
+	@printf "  cover        Compile the cover page\n"
+	@printf "  install      Install project and dependencies to a venv\n"
+	@printf "  docs         Build the docs site\n"
+	@printf "  docs-serve   Serve the docs locally\n"
+	@printf "  uv           Install uv if missing\n"
+	@printf "  uninstall-uv Remove uv installation and cache\n"
+	@printf "  clean        Clean all artifacts\n"
+	@printf "  clean-all    Clean all artifacts and uninstall project and dependencies\n"
 
 watch:
 	mkdir -p $(dir $(if $(OUT),$(OUT),dist/))
@@ -37,8 +52,14 @@ uninstall-uv:
 	rm -r "$(uv tool dir)"
 
 clean:
-	rm -rf dist docs/site
+	rm -rf dist build docs/site *.egg-info src/*.egg-info target
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+	find . -type f -name "*.pyo" -delete
+	find . -type f -name "*$$py.class" -delete
 
-clean-all:
+	rm -rf .pytest_cache .ruff_cache .mypy_cache .coverage htmlcov
+
+clean-all: clean
 	rm -rf .venv
 
