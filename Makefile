@@ -28,7 +28,7 @@ thesis:
 	mkdir -p $(dir $(if $(OUT),$(OUT),dist/))
 	typst compile --pdf-standard $(PDF_STANDARD) $(if $(IN),$(IN),thesis.typ) $(if $(OUT),$(OUT),dist/thesis.pdf)
 	uv run scripts/layer_pdf.py $(if $(OUT),$(OUT),dist/thesis.pdf) || true
-	qpdf --linearize --replace-input $(if $(OUT),$(OUT),dist/thesis.pdf) || true
+	qpdf --linearize --newline-before-endstream --replace-input $(if $(OUT),$(OUT),dist/thesis.pdf) || true
 
 cover:
 	mkdir -p $(dir $(if $(OUT),$(OUT),dist/))
