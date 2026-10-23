@@ -15,3 +15,7 @@ wheels/
 docs/site
 
 content/dedication.*
+
+/.quarto/
+**/*.quarto_ipynb
+_book

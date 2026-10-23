@@ -1,9 +1,0 @@
-орам:
-  short: ORAM
-  long: Oblivious Random Access Memory
-  group: abbr
-
-патхорам:
-  short: Path ORAM
-  description: ...
-  group: term

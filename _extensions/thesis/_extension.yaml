@@ -1,0 +1,31 @@
+title: FTN77 Thesis Quarto Extension
+author: Алекса Ћетковић
+version: 0.1.0
+quarto-required: ">= 1.10.*"
+
+contributes:
+  format:
+    common:
+      lang: sr-Cyrl
+      language: thesis/language.yaml
+      csl: http://www.zotero.org/styles/ieee # TODO: Add csl with sr translations
+
+    typst:
+      papersize: a4
+      mainfont: Times New Roman
+      csl: ieee
+      # disable quarto refs div injection
+      cite-method: natbib
+      include-in-header: # idk
+        text: |
+          #set bibliography(title: none)
+
+    html: default
+
+    # metadata:
+    #   project:
+    #       type: book
+    #       output-dir: _output
+    #   brand: brand.yaml
+    #   website:
+    #     draft-mode: visible

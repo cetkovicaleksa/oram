@@ -1,0 +1,23 @@
+project:
+  type: book
+  execute-dir: project
+
+book:
+  title: ORAM
+  author: Алекса Ћетковић
+  url: https://www.cetkovic.rs/thesis
+  repo-url: https://github.com/cetkovicaleksa/oram
+
+  chapters:
+    - index.qmd
+    - content/uvod.qmd
+    - content/literatura.qmd
+
+bibliography: literature.bib
+zotero: ORAM thesis
+
+website:
+  draft-mode: visible
+
+format:
+  thesis-html: default

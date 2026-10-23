@@ -1,0 +1,286 @@
+# TODO: Review these translations bc they were just copied from https://github.com/quarto-dev/quarto-cli/blob/5b2316316ab5cdd91edd882614dff929eeaec33c/src/resources/language/_language-sr-Latn.yml
+
+sr-Latn: &serbian-latin
+  toc-title-document: "Sadržaj"
+  toc-title-website: "Na ovoj stranici"
+
+  related-formats-title: "Drugi Formati"
+  related-notebooks-title: "Sveske"
+  source-notebooks-prefix: "Izvor"
+  other-links-title: "Drugi Linkovi"
+
+  article-notebook-label: "Sveska Članka"
+  notebook-preview-download: "Skini Svesku"
+  notebook-preview-download-src: "Skini Izvor"
+  notebook-preview-back: "Nazad na Članak"
+  manuscript-meca-bundle: "MECA Paket"
+
+  section-title-abstract: "Apstrakt"
+  section-title-appendices: "Apendiks"
+  section-title-footnotes: "Fusnota"
+  section-title-references: "Reference"
+  section-title-reuse: "Iskoristi Ponovo"
+  section-title-copyright: "Autorska Prava"
+  section-title-citation: "Navođenje"
+
+  appendix-attribution-cite-as: "Za pripisivanje autoru, molimo navedite ovaj rad sa:"
+  appendix-attribution-bibtex: "BibTeX navođenje:"
+  appendix-view-license: "Pogledaj Licencu"
+
+  title-block-author-single: "Autor"
+  title-block-author-plural: "Autori"
+  title-block-affiliation-single: "Afilijacija"
+  title-block-affiliation-plural: "Afilijacije"
+  title-block-published: "Objavljeno"
+  title-block-modified: "Izmenjeno"
+  title-block-keywords: "Ključne Reči"
+
+  callout-tip-title: "Savet"
+  callout-note-title: "Beleška"
+  callout-warning-title: "Upozorenje"
+  callout-important-title: "Bitno"
+  callout-caution-title: "Pažnja"
+
+  code-summary: "Kod"
+
+  code-tools-menu-caption: "Kod"
+  code-tools-show-all-code: "Prikaži Sav Kod"
+  code-tools-hide-all-code: "Sakrij Sav Kod"
+  code-tools-view-source: "Prikaži Izvor"
+  code-tools-source-code: "Izvorni Kod"
+
+  code-line: "Red"
+  code-lines: "Redovi"
+
+  copy-button-tooltip: "Kopiraj"
+  copy-button-tooltip-success: "Kopirano!"
+
+  repo-action-links-edit: "Izmeni ovu stranicu"
+  repo-action-links-source: "Prikaži izvor"
+  repo-action-links-issue: "Prijavi grešku"
+
+  back-to-top: "Nazad na vrh"
+
+  search-no-results-text: "Nema rezultata"
+  search-matching-documents-text: "slična dokumenta"
+  search-copy-link-title: "Kopiraj link za pretraživanje"
+  search-hide-matches-text: "Sakrij dodatne rezultate"
+  search-more-match-text: "još rezultat u ovom dokumentu"
+  search-more-matches-text: "još rezultata u ovom dokumentu"
+  search-clear-button-title: "Obriši"
+  search-text-placeholder: ""
+  search-detached-cancel-button-title: "Odustani"
+  search-submit-button-title: "Predaj"
+  search-label: "Pretraži"
+
+  toggle-section: "Prekidač za odeljak"
+  toggle-sidebar: "Prekidač za navigaciju"
+  toggle-dark-mode: "Prekidač za tamnu temu"
+  toggle-reader-mode: "Prekirač za mod čitanja"
+  toggle-navigation: "Prekidač navigacije"
+
+  # Landmark labels. Two rules for translators:
+  # 1. Do not include the word "navigation". Screen readers announce the role after
+  #    the label (https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/).
+  # 2. Use a noun, not a bare adjective. In several languages the adjective cannot
+  #    stand alone without the noun it agrees with.
+  navigation-site-label: "Veb-sajt" # sr.wikipedia 'Веб-сајт' transliterated to Latin — adapted, needs review
+  navigation-section-label: "Odeljak" # libreoffice sw
+  navigation-toolbar-label: "Traka alata" # gnome gtk sr@latin
+  navigation-page-label: "Stranica" # libreoffice sw
+  navigation-breadcrumbs-label: "Putanja" # libreoffice sw 'Path' (no attested term) — adapted, needs review
+
+  # Accessible names for scrollable regions (never shown as visible text). One rule
+  # for translators: keep the word that says the region scrolls.
+  # No attested "scrollable" here; uses "sa pomeranjem" (with scrolling).
+  scrollable-code-label: "Kod sa pomeranjem" # derived + code-summary — assembled, needs review
+  scrollable-output-label: "Izlaz sa pomeranjem" # derived + gnome control-center — assembled, needs review
+
+  crossref-fig-title: "Figura"
+  crossref-tbl-title: "Tabela"
+  crossref-lst-title: "Lista"
+  crossref-thm-title: "Teorema"
+  crossref-lem-title: "Lema"
+  crossref-cor-title: "Korolarija"
+  crossref-prp-title: "Propozicija"
+  crossref-cnj-title: "Hipoteza"
+  crossref-def-title: "Definicija"
+  crossref-exm-title: "Primer"
+  crossref-exr-title: "Zadatak"
+  crossref-ch-prefix: "Poglavlje"
+  crossref-apx-prefix: "Apendiks"
+  crossref-sec-prefix: "Odeljak"
+  crossref-eq-prefix: "Jednačina"
+  crossref-lof-title: "Lista Figura"
+  crossref-lot-title: "Lista Tabela"
+  crossref-lol-title: "Spisak lista"
+
+  environment-proof-title: "Dokaz"
+  environment-remark-title: "Napomena"
+  environment-solution-title: "Rešenje"
+
+  listing-page-order-by: "Poređaj Po"
+  listing-page-order-by-default: "Standardno"
+  listing-page-order-by-date-asc: "Najstarije"
+  listing-page-order-by-date-desc: "Najnovije"
+  listing-page-order-by-number-desc: "Najviše do Najniže"
+  listing-page-order-by-number-asc: "Najniže do Najviše"
+  listing-page-field-date: "Datum"
+  listing-page-field-title: "Naslov"
+  listing-page-field-description: "Sažetak"
+  listing-page-field-author: "Autor"
+  listing-page-field-filename: "Ime Datoteke"
+  listing-page-field-filemodified: "Izmenjeno"
+  listing-page-field-subtitle: "Podnaslov"
+  listing-page-field-readingtime: "Potrebno za čitanje"
+  listing-page-field-categories: "Kategorije"
+  listing-page-minutes-compact: "{0} min"
+  listing-page-category-all: "Sve"
+  listing-page-no-matches: "Slična dokumenta nisu pronađena"
+  listing-page-filter: "Filter"
+
+  draft: "Nacrt"
+
+sr-Cyrl: &serbian-cyrl
+  toc-title-document: "Садржај"
+  toc-title-website: "На овој страници"
+
+  related-formats-title: "Други Формати"
+  related-notebooks-title: "Свеске"
+  source-notebooks-prefix: "Извор"
+  other-links-title: "Други Линкови"
+
+  article-notebook-label: "Свеска Чланка"
+  notebook-preview-download: "Скини Свеску"
+  notebook-preview-download-src: "Скини Извор"
+  notebook-preview-back: "Назад на Чланак"
+  manuscript-meca-bundle: "MECA Пакет"
+
+  section-title-abstract: "Апстракт"
+  section-title-appendices: "Апендикс"
+  section-title-footnotes: "Фуснота"
+  section-title-references: "Референце"
+  section-title-reuse: "Искористи Поново"
+  section-title-copyright: "Ауторска Права"
+  section-title-citation: "Навођење"
+
+  appendix-attribution-cite-as: "За приписивање аутору, молимо наведите овај рад са:"
+  appendix-attribution-bibtex: "BibTeX навођење:"
+  appendix-view-license: "Погледај Лиценцу"
+
+  title-block-author-single: "Аутор"
+  title-block-author-plural: "Аутори"
+  title-block-affiliation-single: "Афилијација"
+  title-block-affiliation-plural: "Афилијације"
+  title-block-published: "Објављено"
+  title-block-modified: "Измењено"
+  title-block-keywords: "Кључне Речи"
+
+  callout-tip-title: "Савет"
+  callout-note-title: "Белешка"
+  callout-warning-title: "Упозорење"
+  callout-important-title: "Битно"
+  callout-caution-title: "Пажња"
+
+  code-summary: "Код"
+
+  code-tools-menu-caption: "Код"
+  code-tools-show-all-code: "Прикажи Сав Код"
+  code-tools-hide-all-code: "Сакриј Сав Код"
+  code-tools-view-source: "Прикажи Извор"
+  code-tools-source-code: "Изворни Код"
+
+  code-line: "Ред"
+  code-lines: "Редови"
+
+  copy-button-tooltip: "Копирај"
+  copy-button-tooltip-success: "Копирано!"
+
+  repo-action-links-edit: "Измени ову страницу"
+  repo-action-links-source: "Прикажи извор"
+  repo-action-links-issue: "Пријави грешку"
+
+  back-to-top: "Назад на врх"
+
+  search-no-results-text: "Нема резултата"
+  search-matching-documents-text: "слична документа"
+  search-copy-link-title: "Копирај линк за претраживање"
+  search-hide-matches-text: "Сакриј додатне резултате"
+  search-more-match-text: "још резултат у овом документу"
+  search-more-matches-text: "још резултата у овом документу"
+  search-clear-button-title: "Обриши"
+  search-text-placeholder: ""
+  search-detached-cancel-button-title: "Одустани"
+  search-submit-button-title: "Предај"
+  search-label: "Претражи"
+
+  toggle-section: "Прекидач за одељак"
+  toggle-sidebar: "Прекидач за навигацију"
+  toggle-dark-mode: "Прекидач за тамну тему"
+  toggle-reader-mode: "Прекирач за мод читања"
+  toggle-navigation: "Прекидач навигације"
+
+  # Landmark labels. Two rules for translators:
+  # 1. Do not include the word "navigation". Screen readers announce the role after
+  #    the label (https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/).
+  # 2. Use a noun, not a bare adjective. In several languages the adjective cannot
+  #    stand alone without the noun it agrees with.
+  navigation-site-label: "Веб-сајт" # sr.wikipedia 'Веб-сајт' transliterated to Latin — adapted, needs review
+  navigation-section-label: "Одељак" # libreoffice sw
+  navigation-toolbar-label: "Трака алата" # gnome gtk sr@latin
+  navigation-page-label: "Страница" # libreoffice sw
+  navigation-breadcrumbs-label: "Путања" # libreoffice sw 'Path' (no attested term) — adapted, needs review
+
+  # Accessible names for scrollable regions (never shown as visible text). One rule
+  # for translators: keep the word that says the region scrolls.
+  # No attested "scrollable" here; uses "sa pomeranjem" (with scrolling).
+  scrollable-code-label: "Код са померањем" # derived + code-summary — assembled, needs review
+  scrollable-output-label: "Излаз са померањем" # derived + gnome control-center — assembled, needs review
+
+  crossref-fig-title: "Фигура"
+  crossref-tbl-title: "Табела"
+  crossref-lst-title: "Листа"
+  crossref-thm-title: "Теорема"
+  crossref-lem-title: "Лема"
+  crossref-cor-title: "Короларија"
+  crossref-prp-title: "Пропозиција"
+  crossref-cnj-title: "Хипотеза"
+  crossref-def-title: "Дефиниција"
+  crossref-exm-title: "Пример"
+  crossref-exr-title: "Задатак"
+  crossref-ch-prefix: "Поглавље"
+  crossref-apx-prefix: "Апендикс"
+  crossref-sec-prefix: "Одељак"
+  crossref-eq-prefix: "Једначина"
+  crossref-lof-title: "Листа Фигура"
+  crossref-lot-title: "Листа Табела"
+  crossref-lol-title: "Списак листа"
+
+  environment-proof-title: "Доказ"
+  environment-remark-title: "Напомена"
+  environment-solution-title: "Решење"
+
+  listing-page-order-by: "Поређај По"
+  listing-page-order-by-default: "Стандардно"
+  listing-page-order-by-date-asc: "Најстарије"
+  listing-page-order-by-date-desc: "Најновије"
+  listing-page-order-by-number-desc: "Највише до Најниже"
+  listing-page-order-by-number-asc: "Најниже до Највише"
+  listing-page-field-date: "Датум"
+  listing-page-field-title: "Наслов"
+  listing-page-field-description: "Сажетак"
+  listing-page-field-author: "Аутор"
+  listing-page-field-filename: "Име Датотеке"
+  listing-page-field-filemodified: "Измењено"
+  listing-page-field-subtitle: "Поднаслов"
+  listing-page-field-readingtime: "Потребно за читање"
+  listing-page-field-categories: "Категорије"
+  listing-page-minutes-compact: "{0} min"
+  listing-page-category-all: "Све"
+  listing-page-no-matches: "Слична документа нису пронађена"
+  listing-page-filter: "Филтер"
+
+  draft: "Нацрт"
+
+sr: *serbian-cyrl
+sr-Cyrl-RS: *serbian-cyrl
