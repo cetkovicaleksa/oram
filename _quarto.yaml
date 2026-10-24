@@ -10,10 +10,10 @@ book:
 
   chapters:
     - index.qmd
-    - content/uvod.qmd
-    - content/literatura.qmd
+    - chapters/introduction.qmd
+    - references.qmd
 
-bibliography: literature.bib
+bibliography: references.bib
 zotero: ORAM thesis
 
 website:
