@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - '_quarto.yaml'
+      - 'index.qmd'
       - 'chapters/**'
       - 'appendices/**'
       - '_extensions/thesis/**'

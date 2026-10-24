@@ -5,7 +5,7 @@ project:
 book:
   title: ORAM
   author: Алекса Ћетковић
-  url: https://www.cetkovic.rs/thesis
+  url: https://www.cetkovic.rs/oram/thesis
   repo-url: https://github.com/cetkovicaleksa/oram
 
   chapters:

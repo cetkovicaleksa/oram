@@ -7,8 +7,8 @@ contributes:
   format:
     common:
       lang: sr-Cyrl
-      language: thesis/language.yaml
-      csl: http://www.zotero.org/styles/ieee # TODO: Add csl with sr translations
+      language: thesis/assets/language.yaml
+      csl: assets/ieee.csl
 
     typst:
       papersize: a4
